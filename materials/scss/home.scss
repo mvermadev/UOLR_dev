@@ -1,0 +1,67 @@
+// BV
+.HeaderBV .ContactButton{
+    background-color: #035397;
+}
+
+.HeaderBV .HomeLogo{
+    margin-left: 2rem;
+}
+
+.IntroBV .aboutButton{
+    background-color: #035397;
+}
+
+.IntroBV .IntroFirst{
+    margin-left: 2rem;
+}
+
+.ourWorksBV .cardSection{
+    width: 20vw;
+    height: 15vw;
+    border: 1px solid #F4F6FA;
+    background-color: #F4F6FA;
+    border-radius: 10px;
+    margin: 1rem;
+}
+
+.sponsorsBV .sponsorFirst{
+    max-width: 40vw;
+}
+
+.applyBV .applyFirst{
+    margin-left: 5rem;
+    max-width: 40vw;
+}
+
+.galleryBV .AllSections{
+    max-width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+    // height: 600vh;
+}
+
+// .homeContactBV{
+//     background-image: url('/public/Images/contact_banner.jpg');
+//     background-size: cover;
+//     background-attachment: fixed;
+//     background-repeat: no-repeat;
+// }
+
+.homeContactBV{
+    background-attachment: fixed;
+    // margin-bottom: -27rem;
+}
+
+.homeContactBV .cardSection{
+    max-width: 22vw;
+    height: auto;
+    padding: 2rem;
+    border: 1px solid #fff;
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    bottom: 35rem;
+    right: 5rem;
+}
+
+// MV

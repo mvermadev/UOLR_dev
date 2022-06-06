@@ -1,0 +1,25 @@
+// BV
+.eventCardBV .cardSection{
+    min-width: 15vw;
+    max-width: 15vw;
+    height: auto;
+    line-height: 1rem;
+    background-color: #F4F6FA;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px #939191;
+    color: #000000;
+    
+}
+
+.eventCardBV .cardSection .date{
+    color: #FF3636;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.eventBV .heading{
+    margin: 0 2rem;
+    cursor: pointer;
+}
+
+// MV

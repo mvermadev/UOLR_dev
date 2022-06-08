@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import EventCard from '../../eventCard'
 
-export default function BV(props) {
+export default function BV() {
 
     const [showNewEvents, setShowNewEvents] = useState(true);
 
@@ -84,7 +84,7 @@ export default function BV(props) {
                 {
                     showNewEvents == true ? NewEventsData.map((data,id)=>(
                         <EventCard 
-                            id={id}
+                            key={id}
                             date={data.date}
                             month={data.month}
                             year={data.year}
@@ -95,7 +95,7 @@ export default function BV(props) {
                     )) :
                     PastEventsData.map((data,id)=>(
                         <EventCard 
-                            id={id}
+                            key={id}
                             date={data.date}
                             month={data.month}
                             year={data.year}

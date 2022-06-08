@@ -7,7 +7,7 @@ export default function Index() {
   return (
     <div>
        <div>
-            <Header page="event"/>
+            <Header page="career"/>
         </div>
         <div>
             <Content/>

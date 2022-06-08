@@ -3,11 +3,11 @@ import {BrowserView, MobileView} from 'react-device-detect'
 import BV from './BV'
 import MV from './MV'
 
-export default function Index(props) {
+export default function Index() {
   return (
     <div>
       <BrowserView>
-        <BV {...props}/>
+        <BV/>
       </BrowserView>
       <MobileView>
         <MV/>

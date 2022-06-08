@@ -12,7 +12,7 @@ export default function Index() {
   return (
     <div>
       <div>
-        <Header/>
+        <Header page="home"/>
       </div>
       <div>
         <Intro/>

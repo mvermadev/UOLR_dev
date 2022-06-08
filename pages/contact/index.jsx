@@ -1,12 +1,10 @@
 import React from 'react'
-import Content from '../content'
+import Contact from '../../components/contact'
 
 export default function Index() {
   return (
     <div>
-      <div>
-        <Content/>
-      </div>
+        <Contact/>
     </div>
   )
 }

@@ -11,11 +11,11 @@ export default function BV() {
         <div className='d-flex justify-content-between align-items-center'>
             <div className='d-flex justify-content-center align-items-start flex-column applyFirst'>
                 <div>
-                    <p>
-                        How To Apply?
+                    <p className='title h1'>
+                        How To Apply For Career?
                     </p>
                 </div>    
-                <div>
+                <div className='text'>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatum corporis voluptates po.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, voluptatum corporis voluptates po.
                     </p>

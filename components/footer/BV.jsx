@@ -19,14 +19,14 @@ export default function BV() {
                     {/* logo */}
                     <Image
                         src="/Images/logos/bigger.png"
-                        width={300}
+                        width={360}
                         height={180}
                         style={logoStyle}
                     />
                 </div>
-                <div>
+                <div className='list'>
                     {/* home list */}
-                    <p>Home</p>
+                    <p className='listHead'>Home</p>
                     <p>About Us</p>
                     <p>Articles</p>
                     <p>Gallery</p>
@@ -34,9 +34,9 @@ export default function BV() {
                     <p>Events</p>
                     <p>Contact Us</p>
                 </div>
-                <div>
+                <div className='list'>
                     {/* contact details */}
-                    <p>Contact Details</p>
+                    <p className='listHead'>Contact Details</p>
                     <p>+44 (123) 456 78 90</p>
                     <p>+44 (123) 456 78 90</p>
                     <p>+44 (123) 456 78 90</p>
@@ -61,26 +61,26 @@ export default function BV() {
                             />
                         </p>
                         &nbsp;&nbsp;
-                        <p> Univeristy of Leicester Racing team garage,<br></br> University Road LE1 7RH Leicester, UK</p>
+                        <p className='addressText'> Univeristy of Leicester Racing team garage,<br></br> University Road LE1 7RH Leicester, UK.</p>
                     </div>
                 </div>
-                <div>
+                <div className='list'>
                     {/* sm */}
-                    <p>Social Media</p>
+                    <p className='listHead'>Social Media</p>
                     <div className='d-flex justify-content-start align-items-start'>
                         <div className='m-1'>
                             <Image
                                 src="/Images/icons/fb.svg"
-                                width={30}
-                                height={30}
+                                width={25}
+                                height={25}
                                 style={iconStyle}
                             />
                         </div>
                         <div className='m-1'>
                             <Image
                                 src="/Images/icons/insta.svg"
-                                width={30}
-                                height={30}
+                                width={25}
+                                height={25}
                                 style={iconStyle}
                             />
                         </div>
@@ -88,7 +88,7 @@ export default function BV() {
                 </div>
             </div>
         <div className='borderLine'></div>
-        <div className='d-flex justify-content-center'>
+        <div className='d-flex justify-content-center rightText'>
             <p>Copyright © University of Leicester Racing 2022. All rights reserved.</p>
         </div>
     </div>

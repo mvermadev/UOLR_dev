@@ -31,24 +31,19 @@ export default function BV() {
     }
 
   return (
-    <div className='homeContactBV' >
+    <div className='homeContactBV'>
         <div>
             <img
                 src="/Images/contact_banner.png"
-                // width={1000}
-                // height={500}
-                // layout='fill'
-                // objectFit='cover'
-                // quality={100}
                 style={imageStyle}
             />
         </div>
         <div className='d-flex justify-content-end align-items-start'>
         <div className='d-flex justify-content-center align-items-start flex-column cardSection'>
-            <div>
+            <div className='title h1'>
                 <p>Contact Us</p>   
             </div>
-            <div>
+            <div className='text'>
                 <p>
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos distinctio sed architecto sequi voluptatum eligendi corrupti illo maiores adipisci veritatis, totam iste quaerat nam voluptas delectus ea fugiat incidunt porro.
                 </p>
@@ -56,8 +51,8 @@ export default function BV() {
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos distinctio sed architecto sequi voluptatum eligendi corrupti illo maiores adipisci veritatis, totam iste quaerat nam voluptas delectus ea fugiat incidunt porro.
                 </p>
             </div>
-            <div>
-                <Button className='homeContactButton'>Contact Now.</Button>
+            <div className='d-flex justify-content-center'>
+                <Button className='homeContactButton block' size='lg' block>Contact Now</Button>
             </div>
         </div>
         </div>

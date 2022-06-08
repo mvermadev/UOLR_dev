@@ -11,11 +11,11 @@ export default function BV() {
         <div className='d-flex justify-content-around align-items-center'>
             <div className='d-flex justify-content-center align-items-start flex-column sponsorFirst'>
                 <div>
-                    <p>
+                    <p className='title h1'>
                         Our sponsors
                     </p>    
                 </div>
-                <div>
+                <div className='text'>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto atque nesciunt dignissimos rerum ipsam culpa, tempore mollitia enim .</p>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem sit explicabo voluptate magni. Minima quod laudantium enim.</p> 
                 </div>

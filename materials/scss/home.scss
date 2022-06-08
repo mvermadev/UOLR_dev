@@ -1,31 +1,102 @@
 // BV
 .HeaderBV .ContactButton{
     background-color: #035397;
+    padding: 0.3rem 1.5rem;
+    font-weight: 550;
 }
 
 .HeaderBV .HomeLogo{
     margin-left: 2rem;
+    cursor: pointer;
+}
+
+.HeaderBV .options{
+    color: #333333;
+    font-weight: 400;
+}
+
+.HeaderBV .options .option{
+    cursor: pointer;
+}
+
+.IntroBV{
+    margin-top: 1rem;
 }
 
 .IntroBV .aboutButton{
     background-color: #035397;
+    padding: 0.5rem 2.5rem;
+    font-weight: 550;
 }
 
 .IntroBV .IntroFirst{
     margin-left: 2rem;
 }
 
+.IntroBV .IntroFirst .introTitle{
+    font-size: 5rem;
+}
+
+.IntroBV .IntroFirst .introText{
+    margin: 2rem 0rem;
+    font-size: 1.3rem;
+    color: #333333;
+    opacity: 0.8;
+}
+
+.ourWorksBV .workText{
+    margin: 0rem 0rem 1rem 0rem;
+    color: #333333;
+    opacity: 0.8;
+    max-width: 33vw;
+    text-align: center;
+}
+
+.ourWorksBV{
+    margin-top: 4rem;
+}
+
+
 .ourWorksBV .cardSection{
-    width: 20vw;
-    height: 15vw;
+    max-width: 25vw;
+    max-height: 36vh;
     border: 1px solid #F4F6FA;
     background-color: #F4F6FA;
     border-radius: 10px;
     margin: 1rem;
 }
 
+.ourWorksBV .cardSection .cardTitle{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.ourWorksBV .cardSection .cardText{
+    color: #333333;
+    opacity: 0.8;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.sponsorsBV{
+    margin-top: 4rem;
+}
+
 .sponsorsBV .sponsorFirst{
     max-width: 40vw;
+}
+
+.sponsorsBV .sponsorFirst .text{
+    color: #333333;
+    opacity: 0.8;
+    margin-top: 1rem;
+}
+
+.applyBV{
+    background-color: #F4F4F4;
+    margin: 4rem 0 0 0;
+    padding: 0;
 }
 
 .applyBV .applyFirst{
@@ -33,35 +104,61 @@
     max-width: 40vw;
 }
 
+.applyBV .applyFirst .text{
+    color: #333333;
+    opacity: 0.8;
+    margin-top: 2rem;
+}
+
+.applyBV .applyFirst .applyButton{
+    background-color: #035397;
+    padding: 0.5rem 2.5rem;
+    font-weight: 550;
+    margin-top: 2rem;
+}
+
+.galleryBV{
+    margin-top: 4rem;
+}
+
 .galleryBV .AllSections{
     max-width: 55rem;
     margin-left: auto;
     margin-right: auto;
-    // height: 600vh;
 }
-
-// .homeContactBV{
-//     background-image: url('/public/Images/contact_banner.jpg');
-//     background-size: cover;
-//     background-attachment: fixed;
-//     background-repeat: no-repeat;
-// }
 
 .homeContactBV{
     background-attachment: fixed;
-    margin-bottom: -29rem;
+    margin-bottom: -23rem;
+    // background-color: #DB2D00;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #DB2D00);
 }
 
 .homeContactBV .cardSection{
-    max-width: 22vw;
+    max-width: 25vw;
     height: auto;
     padding: 2rem;
     border: 1px solid #fff;
     background-color: #ffffff;
     border-radius: 10px;
     position: relative;
-    bottom: 35rem;
+    bottom: 32rem;
     right: 5rem;
+}
+
+.homeContactBV .cardSection .text{
+    font-size: 0.9rem;
+    color: #333333;
+    opacity: 0.8;
+    text-align: justify;
+}   
+
+
+
+.homeContactBV .cardSection .homeContactButton{
+    background-color: #035397;
+    margin-top: 1rem;
+    font-size: 0.9rem;
 }
 
 // MV

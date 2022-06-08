@@ -62,7 +62,7 @@ export default function BV(props) {
 
     const clickedStyle = {
         color: '#FF3636',
-        fontWeight: 'bold'
+        fontWeight: 400,
     }
 
   return (
@@ -70,12 +70,14 @@ export default function BV(props) {
         <div className='d-flex justify-content-center flex-column'>
             <div className="d-flex justify-content-center">
                 <div className='heading' onClick={()=>setShowNewEvents(true)}>
-                    <p>Upcoming Events</p> 
+                    {
+                        showNewEvents ? <p style={clickedStyle}>Upcoming Events</p> : <p>Upcoming Events</p> 
+                    }
                 </div>
                 <div className='heading' onClick={()=>setShowNewEvents(false)}>
-                    <p>
-                        Past Events
-                    </p>
+                    {
+                        showNewEvents ? <p>Past Events</p> : <p style={clickedStyle}>Past Events</p>
+                    }
                 </div>
             </div>
             <div className='d-flex justify-content-around align-items-start m-4'>

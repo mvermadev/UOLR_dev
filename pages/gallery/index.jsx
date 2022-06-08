@@ -1,12 +1,10 @@
 import React from 'react'
-import Content from '../content'
+import Gallery from '../../components/gallery'
 
 export default function Index() {
   return (
     <div>
-      <div>
-        <Content/>
-      </div>
+        <Gallery/>
     </div>
   )
 }

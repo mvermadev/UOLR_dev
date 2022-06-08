@@ -6,17 +6,35 @@
     padding: 3rem 0rem 0.5rem 0rem;
 }
 
+.FooterBV .listHead{
+    // font-weight: bold;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+
+.FooterBV .list{
+    line-height: 0.9rem;
+    font-size: 0.9rem;
+}
+
 .FooterBV .borderLine{
     border: 0.1px solid #4b4b4b;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
+    opacity: 0.5;
 }
 
 .FooterBV .rightText{
     color: #D9DBE1;
+    margin: 1rem 0rem 1.5rem 0rem;
+    font-size: 0.8rem;
+    font-weight: lighter;
 }
 
+.FooterBV .addressText{
+    line-height: 1.2rem;
+}
 
 
 

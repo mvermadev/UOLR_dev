@@ -8,7 +8,7 @@ export default function BV() {
   return (
     <div className='galleryBV'>
         <div className='d-flex justify-content-center align-items-center flex-column AllSections'>
-            <div>
+            <div className='title h1'>
                 <p>Gallery</p>
             </div>
             <div>

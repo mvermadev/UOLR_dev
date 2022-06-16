@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import EventCard from '../../eventCard'
 
-export default function BV() {
+export default function Index() {
 
     const [showNewEvents, setShowNewEvents] = useState(true);
 

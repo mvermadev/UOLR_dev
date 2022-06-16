@@ -10,7 +10,7 @@ export default function Index(props) {
         <BV {...props}/>
       </BrowserView>
       <MobileView>
-        <MV/>
+        <MV {...props}/>
       </MobileView>
     </div>
   )

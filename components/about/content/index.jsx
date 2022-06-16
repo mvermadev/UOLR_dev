@@ -1,16 +1,35 @@
 import React from 'react'
+import BVContent from '../BV'
+import MVContent from '../MV'
+import Header from '../../header'
+import Footer from '../../footer'
 import {BrowserView, MobileView} from 'react-device-detect'
-import BV from './BV'
-import MV from './MV'
 
 export default function Index() {
   return (
     <div>
       <BrowserView>
-        <BV/>
+        <div>
+            <Header page="about"/>
+        </div>
+        <div>
+            <BVContent/>
+        </div>
+        <div>
+            <Footer/>
+        </div>
       </BrowserView>
+      
       <MobileView>
-        <MV/>
+        <div>
+            <Header page="about"/>
+        </div>
+        <div>
+            <MVContent/>
+        </div>
+        <div>
+            <Footer/>
+        </div>
       </MobileView>
     </div>
   )

@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-export default function BV() {
+export default function Index() {
 
     const imageStyle = {
-        padding: 'auto',
+        // padding: 'auto',
         borderRadius: '10px'
     }
 

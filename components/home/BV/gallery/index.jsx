@@ -19,6 +19,7 @@ export default function BV() {
                         alt="image1"
                         width={900}
                         height={600}
+                        showThumbs={false}
                     />
                       {/* <p className="legend">Image 1</p> */}
                   </div>
@@ -28,6 +29,7 @@ export default function BV() {
                         alt="image1"
                         width={900}
                         height={600}
+                        showThumbs={false}
                     />  
                   </div>
                   <div>
@@ -36,6 +38,7 @@ export default function BV() {
                         alt="image1"
                         width={900}
                         height={600}
+                        showThumbs={false}
                     />
                   </div>
                   <div>
@@ -44,6 +47,7 @@ export default function BV() {
                         alt="image1"
                         width={900}
                         height={600}
+                        showThumbs={false}
                     />
                   </div>
                   <div>
@@ -52,6 +56,7 @@ export default function BV() {
                         alt="image1"
                         width={900}
                         height={600}
+                        showThumbs={false}
                     />
                   </div>
               </Carousel>
